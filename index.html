@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hai Phan</title>
+    <meta name="description" content="Hey, I'm Hai — a comp eng student who loves building robots, embedded systems, and hardware stuff.">
+    <meta property="og:title" content="Hai Phan">
+    <meta property="og:description" content="Hey, I'm Hai — a comp eng student who loves building robots, embedded systems, and hardware stuff.">
+    <meta property="og:type" content="website">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo"><span>✦ hai's site</span></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">hey, I'm Hai 👋</div>
+      <h1>
+        <span class="name-fill">HAI</span>
+        <span class="name-stroke">PHAN</span>
+      </h1>
+      <p class="hero-desc">
+        I study Computer Engineering at <strong>CSULB</strong> (class of 2028) and I'm kind of obsessed with
+        <strong>embedded systems, robots, and how computers work at the hardware level.</strong>
+        When I'm not in class, I'm probably soldering something or deep in a C++ rabbit hole.
+        Feel free to say hi! 😄
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">see what I built</a>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/hai-phan-b013b7304/" target="_blank" class="btn">LinkedIn</a>
+        <a href="assets/resume.pdf" target="_blank" download class="btn">Resume</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-photo-wrap">
+        <img src="assets/profile.png" alt="Hai Phan" class="hero-photo">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-label">// about me</div>
+    <h2>a little bit<br>about me 🙂</h2>
+    <div class="about-inner">
+      <div class="about-text">
+        <p>
+          I'm Hai — a comp eng student at <strong>Cal State Long Beach</strong> with a <strong>3.87 GPA</strong>.
+          I genuinely love figuring out how things work at a low level, which is probably why I keep
+          building embedded systems and hardware projects for fun.
+        </p>
+        <p>
+          I designed my own PCB for a maze-solving robot, built an 8-bit computer from scratch using
+          74-series logic chips, and wrote a lexical scanner in C just because I was curious how
+          compilers work. Not for a class — just because it sounded cool.
+        </p>
+        <p>
+          I'm from <strong>Garden Grove, CA</strong> 🌴 and I speak Vietnamese at home. Outside of engineering
+          stuff, I'm usually working on my next project idea or convincing myself I don't need to buy
+          more components (I always buy more components).
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <span class="highlight-num">3.87</span>
+            <span class="highlight-label">GPA</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-num">4+</span>
+            <span class="highlight-label">projects built</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-num">2028</span>
+            <span class="highlight-label">graduating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-label">// my journey</div>
+    <h2>how I got<br>to where I am</h2>
+    <div class="exp-list">
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">May 2028</div>
+          <div class="exp-org">CSULB</div>
+        </div>
+        <div class="exp-content">
+          <h3>Expected Graduation 🎓</h3>
+          <p>B.S. Computer Engineering • GPA: 3.87</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2023 – Present</div>
+          <div class="exp-org">Personal Project</div>
+        </div>
+        <div class="exp-content">
+          <h3>Micromouse — Maze-Solving Robot 🤖</h3>
+          <p>Built embedded firmware in C++ for an STM32. Configured all the low-level stuff — GPIO, timers, PWM, ADC, interrupts. Got PID control working for the motors and designed a custom PCB for it too. One of my favorite projects so far.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2024 – 2025</div>
+          <div class="exp-org">Personal Project</div>
+        </div>
+        <div class="exp-content">
+          <h3>8-Bit Computer 💡</h3>
+          <p>Built a real working 8-bit computer from scratch using 74-series logic chips — no Arduino, no shortcuts. Drew all the schematics, wired up the board by hand, and validated it with signal tracing. Simulated the tricky parts in OrCAD PSpice first.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2024 – Present</div>
+          <div class="exp-org">Personal Project</div>
+        </div>
+        <div class="exp-content">
+          <h3>Compiler ⚙️</h3>
+          <p>Wrote a lexical scanner in C that tokenizes arithmetic expressions — just for fun because I got curious about how compilers work. Built token structures, a character stream with lookahead, and error reporting. Planning to add a recursive-descent parser next.</p>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-date">2023 – 2024</div>
+          <div class="exp-org">Personal Project</div>
+        </div>
+        <div class="exp-content">
+          <h3>GrowBot — 3-Axis Robot 🌱</h3>
+          <p>Autonomous robot that moves on three axes and uses a camera to detect and pick up objects. Wrote the motion control in C++ and spent a lot of time getting all three axes to move smoothly together.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-label">// my projects</div>
+    <h2>stuff I've<br>built 🔧</h2>
+    <div class="projects-grid">
+
+      <div class="project-card fade-up">
+        <div class="project-num">01</div>
+        <h3>Micromouse — Autonomous Maze Solver 🤖</h3>
+        <p>My favorite project so far. Bare-metal C++ on STM32F4 — wrote all the drivers myself, no HAL shortcuts. Flood-Fill maze algorithm with ADC wall sensors and PID motor control. Even designed the PCB from scratch.</p>
+        <div class="project-tags">
+          <span class="tag">STM32F4</span>
+          <span class="tag">C++</span>
+          <span class="tag">PWM</span>
+          <span class="tag">Encoder</span>
+          <span class="tag">ADC</span>
+          <span class="tag">PID Control</span>
+          <span class="tag">PCB Design</span>
+          <span class="tag">Bare-metal</span>
+        </div>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">02</div>
+        <h3>8-Bit Computer 💡</h3>
+        <p>A fully working 8-bit computer built from individual 74-series logic chips. No dev board, no microcontroller — just chips, wires, and logic gates. Schematic drawn in Flux, simulated in OrCAD PSpice, then actually built it.</p>
+        <div class="project-tags">
+          <span class="tag">74-Series ICs</span>
+          <span class="tag">Flux</span>
+          <span class="tag">OrCAD PSpice</span>
+          <span class="tag">Digital Design</span>
+          <span class="tag">ALU</span>
+        </div>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">03</div>
+        <h3>Compiler ⚙️</h3>
+        <p>Got curious about how compilers work and ended up writing a lexical scanner in C. Tokenizes arithmetic expressions, handles operators and integer literals, has lookahead and error reporting. Still a work in progress — want to add a parser next.</p>
+        <div class="project-tags">
+          <span class="tag">C</span>
+          <span class="tag">Lexical Analysis</span>
+          <span class="tag">Tokenization</span>
+        </div>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-num">04</div>
+        <h3>GrowBot — 3-Axis Robot 🌱</h3>
+        <p>Autonomous robot that uses a camera to detect objects and pick them up. Wrote the motion control in C++ and got three axes to move in sync. Really enjoyed the challenge of coordinating hardware and software here.</p>
+        <div class="project-tags">
+          <span class="tag">C++</span>
+          <span class="tag">Microcontroller</span>
+          <span class="tag">Camera Sensor</span>
+          <span class="tag">Motion Control</span>
+        </div>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="project-link">GitHub</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-label">// my skills</div>
+    <h2>my toolbox 🛠️</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skill-items">
+          <span class="skill-pill">C</span>
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Verilog</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Embedded</h4>
+        <div class="skill-items">
+          <span class="skill-pill">STM32</span>
+          <span class="skill-pill">GPIO</span>
+          <span class="skill-pill">Timers</span>
+          <span class="skill-pill">PWM</span>
+          <span class="skill-pill">ADC</span>
+          <span class="skill-pill">UART</span>
+          <span class="skill-pill">SPI</span>
+          <span class="skill-pill">I²C</span>
+          <span class="skill-pill">Interrupts</span>
+          <span class="skill-pill">PID Control</span>
+          <span class="skill-pill">Bare-metal</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Hardware</h4>
+        <div class="skill-items">
+          <span class="skill-pill">PCB Design</span>
+          <span class="skill-pill">Motor Driver Circuits</span>
+          <span class="skill-pill">Sensor Integration</span>
+          <span class="skill-pill">FPGA (Vivado)</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools</h4>
+        <div class="skill-items">
+          <span class="skill-pill">OrCAD PSpice</span>
+          <span class="skill-pill">VS Code</span>
+          <span class="skill-pill">Ubuntu Linux</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">STM32CubeIDE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-label">// contact</div>
+    <h2>wanna chat? 👋<br>hit me up!</h2>
+    <div class="contact-inner">
+      <div class="contact-blurb">
+        I love talking about embedded systems, robots, hardware, and cool tech projects. 
+        Whether you want to collaborate, just say hi, or chat about something interesting — 
+        feel free to reach out anytime! I'm always down. 😄
+      </div>
+      <div class="contact-links">
+        <a href="mailto:27phanh@gmail.com" class="contact-link">27phanh@gmail.com <span>Email →</span></a>
+        <a href="https://www.linkedin.com/in/hai-phan-b013b7304/" target="_blank" class="contact-link">linkedin.com/in/hai-phan-b013b7304 <span>LinkedIn →</span></a>
+        <a href="https://github.com/HaiPhan285" target="_blank" class="contact-link">github.com/HaiPhan285 <span>GitHub →</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>built with ☕ by Hai Phan</p>
+    <p>// thanks for stopping by!</p>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
